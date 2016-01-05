@@ -1,0 +1,18 @@
+# Description: A fork of prboom
+# URL:         http://sourceforge.net/projects/prboom-plus/
+# Maintainer:  Mitchell Wodach wodachm@gmail.com
+# Depends on:  xorg-libx11 mesa3d openal libogg freetype libjpeg-turbo zlib ode
+
+name=alienarena
+version=7.66
+release=linux20130827
+source=(http://red.planetarena.org/files/${name}-${version}-${release}.tar.gz)
+
+build() {
+    
+    cd $name-$version
+    ./configure --prefix=/usr 
+    make
+    make DESTDIR=$PKG install
+            
+}
