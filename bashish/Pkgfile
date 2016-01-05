@@ -1,0 +1,18 @@
+# Description: A theme enviroment for text terminals 
+# URL:         http://sourceforge.net/projects/prboom-plus/
+# Maintainer:  Mitchell Wodach wodachm@gmail.com
+# Depends on:  bash dialog
+
+name=bashish
+version=2.2.4
+release=2
+source=(http://downloads.sourceforge.net/project/${name}/${name}/${version}/${name}-${version}.tar.gz)
+
+build() {
+    
+    cd $name-$version
+    ./configure --prefix=/usr 
+    make
+    make DESTDIR=$PKG install
+            
+}
