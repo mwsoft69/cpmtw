@@ -1,0 +1,23 @@
+# Description: A light weight session manager for linux  
+# URL:         http://sourceforge.net/projects/lxdm/
+# Maintainer:  Mitchell Wodach wodachm@gmail.com
+# Depends on:  gtk linux-pam
+
+name=lxdm
+version=0.5.3
+release=2
+source=(http://sourceforge.net/projects/lxde/files/${name}/${name}%20${version}/${name}-${version}.tar.xz
+http://downloads.sourceforge.net/project/lxdm-init-script/lxdm-init-script.tar.gz)
+
+build() {
+    
+    cd $name-$version
+    ./configure --prefix=/usr  --disable-nls  --disable-gtk3 --sysconfdir=/etc
+ 
+    make
+    make DESTDIR=$PKG install
+    mkdir $PKG/etc/rc.d
+    install -m 755 $SRC/lxdm-init-script/lxdm  $PKG/etc/rc.d/$name
+    rm -r $PKG/usr/share/lxdm/themes
+            
+}
