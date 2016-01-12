@@ -4,13 +4,9 @@ d:lxdm
 d:alienarena
 f:1f6d4bef76a0474f9ad53f7d8d146125:prboom-plus/Pkgfile
 f:bdd63a6b2de46a1895a4664ff3855505:prboom-plus/.md5sum
-f:af31bac88c96e55b45e9cc9e387eae1f:prboom-plus/.footprint
 f:bddf6b04dc2854fe6d07f8113f1cdfb4:bashish/Pkgfile
 f:1c6d20dcae60aee16d2bc66a46bfbed9:bashish/.md5sum
-f:1787023ed930bc829dd93079dc82e9ff:bashish/.footprint
 f:74fe90f11e1fef06d2e55f5210f28c7d:lxdm/Pkgfile
 f:20d0ac0e0aca121e35a87cfa8558b220:lxdm/.md5sum
-f:9ad54a81f3198db74bf9750e3f08a7b4:lxdm/.footprint
 f:fb31268ac375315de6a7df55719e2c06:alienarena/Pkgfile
 f:8b711ac1616d24f239504f966eb85eb7:alienarena/.md5sum
-f:abe235cb326c058ea975714ee2a9834f:alienarena/.footprint
