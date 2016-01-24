@@ -4,7 +4,7 @@
 # Depends on:  sdl_mixer, sdl_net
 
 name=prboom-plus
-version=2.5.1.3
+version=2.5.1.4
 release=2
 source=(http://downloads.sourceforge.net/project/${name}/${name}/${version}/${name}-${version}.tar.gz)
 
