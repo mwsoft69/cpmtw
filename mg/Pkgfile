@@ -1,0 +1,20 @@
+# Description: mg
+# URL:         
+# Maintainer:  Juergen Daubert, jue at crux dot nu
+# Packager:    Simone Rota, sip at crux dot nu
+# Depends on:  ncurses
+
+name=mg
+version=20160905
+release=1
+source=(http://devio.us/%7Ebcallah/$name/$name-$version.tar.gz)
+
+build(){
+    cd $name-$version
+    cp GNUmakefile Makefile
+    make
+    make PREFIX=/usr DESTDIR=$PKG  install
+    rm -rf $PKG/usr/share/doc 
+   
+}
+

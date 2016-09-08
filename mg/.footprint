@@ -1,0 +1,7 @@
+drwxr-xr-x	mitch/users	usr/
+drwxr-xr-x	mitch/users	usr/bin/
+-r-xr-xr-x	mitch/users	usr/bin/mg
+drwxr-xr-x	mitch/users	usr/man/
+drwxr-xr-x	mitch/users	usr/man/man1/
+-r--r--r--	mitch/users	usr/man/man1/mg.1.gz
+drwxr-xr-x	mitch/users	usr/share/
