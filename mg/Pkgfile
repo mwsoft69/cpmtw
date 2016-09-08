@@ -1,7 +1,6 @@
-# Description: mg
-# URL:         
-# Maintainer:  Juergen Daubert, jue at crux dot nu
-# Packager:    Simone Rota, sip at crux dot nu
+# Description: mg (A lightweight emacs-like editor)
+# URL:         http://devio.us/~bcallah/mg/
+# Maintainer:  Mitchell Wodach, wodachm at gmail dot com
 # Depends on:  ncurses
 
 name=mg
