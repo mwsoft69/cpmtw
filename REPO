@@ -1,12 +1,4 @@
-d:mg
 d:prboom-plus
-d:bashish
-f:6367cb5820a6e7923b9eb22e5a02863d:mg/Pkgfile
-f:4a23637f7bbb542a8b1a598d89b3572c:mg/.md5sum
-f:e987db2728dfd9fdb335b02e43f6455c:mg/.footprint
-f:ce61f677ba33732e7f66baa9de862532:prboom-plus/Pkgfile
+f:6a1083a6b5d8fbb89d687cf6547f9260:prboom-plus/Pkgfile
 f:d558504f0190731d811f5b62b7a0f0e1:prboom-plus/.md5sum
 f:df7dc18d4185794d220557bdd87195f1:prboom-plus/.footprint
-f:bddf6b04dc2854fe6d07f8113f1cdfb4:bashish/Pkgfile
-f:1c6d20dcae60aee16d2bc66a46bfbed9:bashish/.md5sum
-f:ca06b63946c3575e11e7d6a1b8b05b22:bashish/.footprint
