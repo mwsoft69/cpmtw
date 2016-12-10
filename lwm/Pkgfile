@@ -1,0 +1,18 @@
+# Description: A lightweight window manager that keeps out of your face
+# URL:         http://www.jfc.org.uk/software/lwm.html
+# Maintainer:  Mitchell Wodach
+# Depends on:  xorg,xorg-imake
+
+name=lwm
+version=1.2.4
+release=1
+source=(http://www.jfc.org.uk/files/lwm/lwm-1.2.4.tar.gz)
+
+build() {
+cd lwm-$version
+xmkmf
+make 
+make DESTDIR=$PKG  install
+
+}
+
