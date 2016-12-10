@@ -1,4 +1,8 @@
 d:prboom-plus
-f:6a1083a6b5d8fbb89d687cf6547f9260:prboom-plus/Pkgfile
-f:d558504f0190731d811f5b62b7a0f0e1:prboom-plus/.md5sum
+d:lwm
+f:ce61f677ba33732e7f66baa9de862532:prboom-plus/Pkgfile
 f:df7dc18d4185794d220557bdd87195f1:prboom-plus/.footprint
+f:d558504f0190731d811f5b62b7a0f0e1:prboom-plus/.md5sum
+f:9a529db619ea34958e40c44c1b91bdb4:lwm/Pkgfile
+f:3a92b75628242a8f85c66af1d895b951:lwm/.footprint
+f:0050460b133122e744fb064f110def18:lwm/.md5sum
