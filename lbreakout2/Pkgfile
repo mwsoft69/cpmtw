@@ -1,0 +1,17 @@
+# Description: breakout-style arcade game like Arkanoid
+# URL: http://lgames.sourceforge.net/LBreakout2
+# Maintainer: Mitchell Wodach <wodachm at gmail dot com>
+# Depends on: lsdl sdl_mixer libpng
+
+name=lbreakout2
+version=2.6.5
+release=1
+source=(http://downloads.sourceforge.net/project/lgames/lbreakout2/2.6/lbreakout2-${version}.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr/ --disable-nls --disable-sdltest 
+	make
+	make DESTDIR=$PKG install
+
+}
