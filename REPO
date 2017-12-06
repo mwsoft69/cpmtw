@@ -1,5 +1,6 @@
 d:lwm
 d:prboom-plus
+d:fceux
 d:brandy
 d:lbreakout2
 d:ninvaders
@@ -9,11 +10,14 @@ f:0050460b133122e744fb064f110def18:lwm/.md5sum
 f:ce61f677ba33732e7f66baa9de862532:prboom-plus/Pkgfile
 f:df7dc18d4185794d220557bdd87195f1:prboom-plus/.footprint
 f:d558504f0190731d811f5b62b7a0f0e1:prboom-plus/.md5sum
+f:764e5a4b4b24a3b5438df4b260cfe9ce:fceux/Pkgfile
+f:cabbba7638549af1692bb9bee014a6f6:fceux/.footprint
+f:187102af6f734f63ce423cbb745bf241:fceux/.md5sum
 f:b236e44152b0d6a1962dfc6420c64d55:brandy/Pkgfile
 f:3530f05cb0d26e2df01dd9362e548bb2:brandy/.footprint
 f:82f0c72c03982064bd05b6c63934fa54:brandy/.md5sum
-f:e166d9dc3aab733f10dba89cd60540af:lbreakout2/Pkgfile
-f:5b57caf800ab7c6e211b1b8f10903eb1:lbreakout2/.footprint
+f:3d205090c4085bf313627d9509e0a06a:lbreakout2/Pkgfile
+f:04cc418598b59aa2e07755bb360a01bf:lbreakout2/.footprint
 f:973fca34183b3554e34deb69fda10af7:lbreakout2/.md5sum
 f:2ba67bb1a6c31a817cc9b7f13acc3d90:ninvaders/Pkgfile
 f:750e5509589c15941097da2b8006fc41:ninvaders/.footprint
