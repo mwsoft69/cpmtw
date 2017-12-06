@@ -1,0 +1,16 @@
+# Description: Nintendo Entertainment System  emulator
+# URL: http://www.fceux.com/web/home.html
+# Maintainer: Mitchell Wodach <wodachm at gmail dot com>
+# Depends on: scons lsdl gtk 
+
+name=fceux
+version=2.2.3
+release=1
+source=(https://downloads.sourceforge.net/project/fceultra/Source%20Code/$version%20src/fceux-$version.src.tar.gz)
+
+build() {
+	cd $name-$version
+	scons --prefix=$PKG/usr
+	scons --prefix=$PKG/usr  DESTDIR=$PKG install
+	
+}
